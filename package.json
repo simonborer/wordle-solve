@@ -1,0 +1,12 @@
+{
+  "name": "wordlesolve",
+  "version": "1.0.0",
+  "description": "If you don't mind starting with 'Opera', use https://github.com/jason-chao/wordle-solver. I wanted a more manual, less opinionated approach. Plus, today's word wasn't in any of the 10k word lists!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "solve": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
