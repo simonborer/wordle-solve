@@ -127,4 +127,13 @@ wordList.forEach((word) => solver(word));
 // Prioritize possibilities
 possibilities.forEach((word) => likely(word));
 
+if (likelyWords.lessLikely.length <= 10) {
 console.table({"likely": likelyWords.veryLikely, "somewhat likely": likelyWords.somewhatLikely, "less likely": likelyWords.lessLikely});
+} else if (likelyWords.veryLikely.length > 0 && likelyWords.somewhatLikely.length > 0) {
+  console.log("likely", likelyWords.veryLikely);
+  console.log("somewhat likely", likelyWords.somewhatLikely);
+} else {
+  console.log("likely", likelyWords.veryLikely);
+  console.log("somewhat likely", likelyWords.somewhatLikely);
+  console.log("less likely", likelyWords.lessLikely);
+}
