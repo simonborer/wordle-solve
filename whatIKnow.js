@@ -16,19 +16,19 @@ const known = {
     not: []
   },
   2: {
-    is: ["a"],
+    is: [],
     not: []
   },
   3: {
-    is: ["c"],
+    is: [],
     not: []
   },
   4: {
     is: [],
     not: []
   },
-  maybe: ["h"],
-  never: ["r", "i", "s", "e", "p", "l", "n", "t", "o"]
+  maybe: [],
+  never: []
 };
 
 export const whatIKnow = known;
