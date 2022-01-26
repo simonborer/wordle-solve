@@ -13,7 +13,7 @@ const known = {
   },
   1: {
     is: [],
-    not: ["a"]
+    not: []
   },
   2: {
     is: [],
@@ -25,10 +25,10 @@ const known = {
   },
   4: {
     is: [],
-    not: ["e"]
+    not: []
   },
-  maybe: ["a", "e"],
-  never: ["r", "i", "s"]
+  maybe: [],
+  never: []
 };
 
 export const whatIKnow = known;
