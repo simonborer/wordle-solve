@@ -1,4 +1,4 @@
-import { wordList } from "./wordlist.js";
+import { wordList } from "./actualWordlist.js";
 import { whatIKnow } from "./whatIKnow.js";
 
 // Short array for testing
